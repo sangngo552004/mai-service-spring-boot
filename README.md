@@ -43,7 +43,7 @@ flowchart LR
     L --> H
 ```
 
-Detailed flow documentation is available in [docs/PROJECT_FLOW.md](/D:/JavaProject/mailservice/docs/PROJECT_FLOW.md).
+Detailed flow documentation is available in [docs/PHASE_1_ARCHITECTURE.md](/D:/JavaProject/mailservice/docs/PHASE_1_ARCHITECTURE.md).
 
 ## 3. Tech Stack
 
@@ -269,7 +269,7 @@ If the project follows this order, each iteration can be measured by real throug
 
 ## 14. Related Documents
 
-- [Detailed flow](/D:/JavaProject/mailservice/docs/PROJECT_FLOW.md)
+- [Detailed flow](/D:/JavaProject/mailservice/docs/PHASE_1_ARCHITECTURE.md)
 - [Application configuration](/D:/JavaProject/mailservice/src/main/resources/application.properties)
 - [Local infrastructure benchmark report](/D:/JavaProject/mailservice/target/surefire-reports/TEST-com.project.sangngo552004.mailservice.LocalInfraPerformanceTest.xml)
 
