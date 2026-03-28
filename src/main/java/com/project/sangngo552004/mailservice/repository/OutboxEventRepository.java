@@ -10,4 +10,6 @@ import java.util.List;
 @Repository
 public interface OutboxEventRepository extends JpaRepository<OutboxEvent, String> {
     List<OutboxEvent> findByStatusOrderByCreatedAt(OutboxEvent.Status status, Pageable pageable);
+
+    long countByStatus(OutboxEvent.Status status);
 }
