@@ -25,23 +25,7 @@ This document is the Phase 1 summary: what the system currently does, how to run
 
 ### High-level flow
 
-```mermaid
-flowchart LR
-    A[Client uploads CSV] --> B[POST /api/mail/upload]
-    B --> C[UploadService]
-    C --> D[(upload_job)]
-    C --> E[Local Storage]
-    D --> F[UploadJobWorker]
-    E --> F
-    F --> G[CsvParserService]
-    G --> H[(email_job)]
-    G --> I[(outbox_event)]
-    I --> J[OutboxPublisherWorker]
-    J --> K[(Redis Queue)]
-    K --> L[EmailSenderWorker x N]
-    L --> M[EmailProvider]
-    L --> H
-```
+![High-level flow](img/img2.png)
 
 Detailed flow documentation is available in [docs/PHASE_1_ARCHITECTURE.md](/D:/JavaProject/mailservice/docs/PHASE_1_ARCHITECTURE.md).
 

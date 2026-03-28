@@ -61,7 +61,7 @@ email_job -> SUCCESS / FAILED
 
 ### Sequence diagram
 
-![Sequence diagram](./img.png)
+![Sequence diagram](../img/img.png)
 
 ## 2. Stage-by-Stage Details
 
